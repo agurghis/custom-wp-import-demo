@@ -1,0 +1,99 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.td-demo-import-page {
+ 	position: relative;
+    margin: 25px 40px 0 20px;
+    font-size: 15px;
+    max-width: none;
+}
+
+.td-demo-import-page .notice {
+    display: block !important;
+}
+
+.td-demo-import-page h1 {
+    margin: .2em 200px 0 0;
+    padding: 0;
+    color: #32373c;
+    line-height: 1.2em;
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+.td-demo-import-image-container,
+.td-demo-import-item-container {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.td-demo-import-item-container {
+	padding: 0 30px;
+}
+
+.td-demo-import-item-container h2 {
+	text-align: left;
+	margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.td-demo-import-list {
+	margin-bottom: 20px;
+	float: left;
+	width: 100%;
+}
+
+.td-demo-import-list ul li {
+	margin-bottom: 15px;
+	float: left;
+	width: 100%;
+}
+
+.td-demo-import-list ul li div.status-icons {
+	width: 20px;
+}
+
+.td-demo-import-list ul li.inactive {
+	color: #ccc;
+}
+
+.td-demo-import-list ul li.inactive .fa-dot-circle-o {
+	display: inline-block;
+}
+
+.td-demo-import-list ul li.pending .fa-spinner {
+	display: inline-block;
+}
+
+.td-demo-import-list ul li.success .fa-check {
+	display: inline-block;
+}
+
+.td-demo-import-list ul li.error .fa-exclamation-triangle {
+	display: inline-block;
+}
+
+.td-demo-import-list ul li .fa {
+	display: none;
+}
+
+.td-demo-import-list ul li div {
+	display: inline-block;
+}
+
+.td-demo-import-intro-text {
+	margin: 50px 0;
+	padding: 30px 0;
+	border-top: 1px solid rgba(0,0,0,.1);
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.td-demo-import-intro-text p {
+	margin: 0 !important;
+}
